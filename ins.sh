@@ -37,12 +37,12 @@ cd ../..
 rm -rf tmp
 }
 if [ "$1" = "run" ]; then
-sudo lua5.3 Fast.lua
+sudo lua5.3 black.lua
 fi
 if [ "$1" = "ins" ]; then
 install
 cd ..
 cd uu
 rm -rf luarocks*
-sudo lua5.3 Fast.lua
+sudo lua5.3 black.lua
 fi
